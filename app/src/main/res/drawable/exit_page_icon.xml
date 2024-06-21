@@ -1,0 +1,28 @@
+<!--
+  ~ Copyright (2024) Beijing Volcano Engine Technology Ltd.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Create Date : 2024/05/14
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="16dp"
+    android:viewportWidth="16"
+    android:viewportHeight="16">
+    <path
+        android:pathData="M11.4298 14.7829C11.625 14.5877 11.625 14.2711 11.4298 14.0758L5.40159 8.04765L11.418 2.03121C11.6133 1.83595 11.6133 1.51937 11.418 1.3241L10.7109 0.616997C10.5157 0.421735 10.1991 0.421735 10.0038 0.616997L2.94786 7.67296C2.88145 7.73937 2.83763 7.81981 2.81639 7.90474C2.76027 8.07781 2.80095 8.27544 2.93844 8.41293L10.0155 15.49C10.2108 15.6853 10.5274 15.6853 10.7226 15.49L11.4298 14.7829Z"
+        android:fillColor="#1D2129"
+        android:fillType="evenOdd" />
+</vector>

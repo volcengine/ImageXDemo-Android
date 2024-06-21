@@ -1,0 +1,56 @@
+[versions]
+agp = "8.4.0"
+kotlin = "1.9.0"
+ksp = "1.9.22-1.0.17"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+bdfresco = "2.9.3-tob"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+# bdfresco
+bdfresco = { group = "com.bytedance.fresco", name = "fresco", version.ref = "bdfresco" }
+# gif 解码库
+bdfresco-animated-gif = { group = "com.bytedance.fresco", name = "animated-gif", version.ref = "bdfresco" }
+# webp animated
+bdfresco-animated-webp = { group = "com.bytedance.fresco", name = "animated-webp", version.ref = "bdfresco" }
+# 低版本 webp 支持
+bdfresco-webp-support = { group = "com.bytedance.fresco", name = "webpsupport", version.ref = "bdfresco" }
+# fresco 组件
+bdfresco-drawee = { group = "com.bytedance.fresco", name = "drawee", version.ref = "bdfresco" }
+# 监控 + 网络组件
+bdfresco-statistics = { group = "com.bytedance.fresco", name = "statistics", version.ref = "bdfresco" }
+# heif 静图解码
+bdfresco-heif = { group = "com.bytedance.fresco", name = "heif", version.ref = "bdfresco" }
+# heif 动图解码
+bdfresco-animated-heif = { group = "com.bytedance.fresco", name = "animated-heif", version.ref = "bdfresco" }
+# 授权认证 + 云控配置
+bdfresco-authorization = { group = "com.bytedance.fresco", name = "authorization", version.ref = "bdfresco" }
+
+[bundles]
+bdfresco-common = [
+    "bdfresco", "bdfresco-animated-gif",
+    "bdfresco-animated-webp", "bdfresco-webp-support",
+    "bdfresco-drawee", "bdfresco-statistics",
+    "bdfresco-heif", "bdfresco-animated-heif",
+    "bdfresco-authorization"
+]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-ksp = {id = "com.google.devtools.ksp" ,version.ref = "ksp"}
+

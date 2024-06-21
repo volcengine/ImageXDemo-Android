@@ -1,0 +1,93 @@
+<!--
+  ~ Copyright (2024) Beijing Volcano Engine Technology Ltd.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Create Date : 2024/05/14
+  -->
+
+<resources>
+    <string name="app_name">ImageXDemo</string>
+    <string name="welcome_words">Hi, 欢迎体验veImageX</string>
+    <string name="bytedance_tip_words">字节跳动旗下图片服务产品</string>
+    <string name="input_hint">输入AppID可进行绑定</string>
+    <string name="experience_immediately">立即体验</string>
+    <string name="already_read_and_agree">我已阅读并同意</string>
+    <string name="user_privacy_agreement">用户隐私协议</string>
+    <string name="powered_by">Powered by 火山引擎</string>
+    <string name="image_service">图片服务</string>
+    <string name="try_service">体验一站式图片解决方案</string>
+    <string name="in_development">功能正在开发中…</string>
+    <string name="exit_page">退出</string>
+    <string name="settings">设置</string>
+    <string name="user_privacy_agreement_tips">请先同意用户隐私协议</string>
+    <string name="basic_settings">基础配置</string>
+    <string name="app_id">AppID</string>
+    <string name="modification">修改</string>
+    <string name="cloud_control_settings">云控配置</string>
+    <string name="check">查看</string>
+    <string name="cache_clear">缓存清理</string>
+    <string name="disc_cache">磁盘缓存</string>
+    <string name="memory_cache">内存缓存</string>
+    <string name="clear">清除</string>
+    <string name="clear_all_at_once">(一次清空)</string>
+    <string name="prorated_clearance">(按比例清除)</string>
+    <string name="clear_cache_warning">确定清除磁盘缓存吗？</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="disc_cache_clear_finished">磁盘清理完成</string>
+    <string name="memory_cache_clear_finished">内存缓存清理完成</string>
+    <string name="input_ratio">请输入清除比例(0.0 – 1.0)</string>
+    <string name="please_input_ratio">请输入清除比例</string>
+    <string name="please_input_legal_ratio">请输入合法的清除比例</string>
+    <string name="add_image_url">添加图片url</string>
+    <string name="image_url">图片URL</string>
+    <string name="input_url_hint">请输入图片URL，多个URL以英文逗号「,」分隔</string>
+    <string name="please_input_url">请输入图片url</string>
+    <string name="please_input_legal_url">请输入合法的图片url</string>
+    <string name="image_decode">图片解码</string>
+    <string name="progressive_load">渐进式加载</string>
+    <string name="animate_image_control">动图播放控制</string>
+    <string name="decode_info">解码详情</string>
+    <string name="basic_info">基础信息</string>
+    <string name="copy">复制</string>
+    <string name="image_type">图片类型</string>
+    <string name="file_size">文件大小</string>
+    <string name="image_resolution">分辨率</string>
+    <string name="network_time_consumption">网络耗时</string>
+    <string name="decode_duration">解码耗时</string>
+    <string name="log_info">日志信息</string>
+    <string name="imagex_load_monitor">imagex_load_monitor</string>
+    <string name="log_demo">“Right” = 123,\n“has_contour” = 12425,\n“Right” = 123,\n“has_contour” = 12425,“Right” = 123,\n“has_contour” = 12425,“Right” = 123,\n“has_contour” = 12425,“Right” = 123,\n“has_contour” = 12425,“Right” = 123,\n“has_contour” = 12425,“Right” = 123,\n“has_contour” = 12425,\n“Right” = 123,\n“has_contour” = 12425,\n“Right” = 123,\n“has_contour” = 12425,</string>
+    <string name="already_copy_to_clipboard">已经复制到粘贴板</string>
+    <string name="content_empty">内容为空</string>
+    <string name="input_app_id">请输入AppId</string>
+    <string name="setting_finished">设置完成</string>
+    <string name="clear_memory_cache_warning">确定清除内存缓存吗</string>
+    <string name="ignore_memory_cache">忽略内存缓存</string>
+    <string name="ignore_disc_cache">忽略磁盘缓存</string>
+    <string name="do_not_save_memory_cache">下载后不存内存缓存</string>
+    <string name="not_supported_yet">暂不支持</string>
+    <string name="ve_image_x">veImageX</string>
+    <string name="load_status">加载状态</string>
+    <string name="error_code">错误码</string>
+    <string name="error_description">错误描述</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="stop">停止</string>
+    <string name="image_load_source">图片加载源</string>
+    <string name="please_input_app_id_first">请先输入AppID</string>
+    <string name="image_not_ready">图像还未下载好，请稍后再试。</string>
+    <string name="try_in_weak_network_environment">需在弱网环境下体验渐进式加载效果</string>
+    <string name="token_authcode_required">请设置好Token和authCode.</string>
+</resources>

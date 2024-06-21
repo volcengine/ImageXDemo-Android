@@ -1,0 +1,96 @@
+<!--
+  ~ Copyright (2024) Beijing Volcano Engine Technology Ltd.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Create Date : 2024/05/14
+  -->
+
+<resources>
+    <string name="app_name">ImageXDemo</string>
+    <string name="welcome_words">Hi, welcome to veImageX.</string>
+    <string name="bytedance_tip_words">ByteDance\'s image service products.</string>
+    <string name="input_hint">Enter the AppID to bind.</string>
+    <string name="experience_immediately">Try it now.</string>
+    <string name="already_read_and_agree">I have read and agreed.</string>
+    <string name="user_privacy_agreement">User Privacy Agreement</string>
+    <string name="powered_by">Powered by Volcano Engine</string>
+    <string name="image_service">Picture services</string>
+    <string name="try_service">Try one-stop picture solutions</string>
+    <string name="in_development">Features are in development…</string>
+    <string name="exit_page">Exit</string>
+    <string name="settings">Settings</string>
+    <string name="user_privacy_agreement_tips">Please agree to the user privacy agreement first.</string>
+    <string name="basic_settings">Basic Settings</string>
+    <string name="app_id">AppID</string>
+    <string name="modification">modification</string>
+    <string name="cloud_control_settings">Cloud Control Settings</string>
+    <string name="check">Check</string>
+    <string name="cache_clear">Cache Clear</string>
+    <string name="disc_cache">Disc Cache</string>
+    <string name="memory_cache">Memory Cache</string>
+    <string name="clear">Clear</string>
+    <string name="clear_all_at_once">(Clear all at once.)</string>
+    <string name="prorated_clearance">(Prorated clearance.)</string>
+    <string name="clear_cache_warning">Are you sure to clear the disc cache?</string>
+    <string name="sure">Sure</string>
+    <string name="cancel">Cancel</string>
+    <string name="disc_cache_clear_finished">Disc cache clear finished.</string>
+    <string name="memory_cache_clear_finished">Memory cache clear finished.</string>
+    <string name="input_ratio">Please enter the clear ratio (0.0 – 1.0)</string>
+    <string name="please_input_ratio">Please enter the clear ratio</string>
+    <string name="please_input_legal_ratio">Please enter the legal clear ratio</string>
+    <string name="add_image_url">Add Image Url</string>
+    <string name="image_url">Image URL</string>
+
+    <string name="input_url_hint">Please enter the image URL, separated by a comma ",".</string>
+    <string name="please_input_url">Please input image\'s url</string>
+    <string name="please_input_legal_url">Please input legal uri format.</string>
+
+    <string name="image_decode">Image decode</string>
+    <string name="progressive_load">Progressive load</string>
+    <string name="animate_image_control">Animate image control</string>
+    <string name="decode_info">Decode info.</string>
+    <string name="basic_info">Basic info</string>
+    <string name="copy">Copy</string>
+    <string name="image_type">Image type</string>
+    <string name="file_size">File size</string>
+    <string name="image_resolution">Image resolution</string>
+    <string name="network_time_consumption">Network time consumption</string>
+    <string name="decode_duration">Decode duration</string>
+    <string name="log_info">Log info</string>
+    <string name="imagex_load_monitor">imagex_load_monitor</string>
+    <string name="log_demo">“Right” = 123,\n“has_contour” = 12425,\n“Right” = 123,\n“has_contour” = 12425,“Right” = 123,\n“has_contour” = 12425,“Right” = 123,\n“has_contour” = 12425,“Right” = 123,\n“has_contour” = 12425,“Right” = 123,\n“has_contour” = 12425,“Right” = 123,\n“has_contour” = 12425,\n“Right” = 123,\n“has_contour” = 12425,\n“Right” = 123,\n“has_contour” = 12425,</string>
+    <string name="already_copy_to_clipboard">Already copy to clipboard</string>
+    <string name="content_empty">Content is empty</string>
+    <string name="input_app_id">Please input AppId</string>
+    <string name="setting_finished">Setting finished</string>
+    <string name="clear_memory_cache_warning">Are you sure to clear memory cache?</string>
+    <string name="ignore_memory_cache">Ignore memory cache</string>
+    <string name="ignore_disc_cache">Ignore disc cache</string>
+    <string name="do_not_save_memory_cache">Don\'t save memory cache after download</string>
+    <string name="not_supported_yet">Not supported yet</string>
+    <string name="ve_image_x">veImageX</string>
+    <string name="load_status">Load status</string>
+    <string name="error_code">Error code</string>
+    <string name="error_description">Error description</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="image_load_source">Image load source</string>
+    <string name="please_input_app_id_first">Please input AppId first.</string>
+    <string name="image_not_ready">Image is not ready,please try again later.</string>
+    <string name="try_in_weak_network_environment">Try in weak network environment.</string>
+    <string name="token_authcode_required">Please set your token and auth code.</string>
+
+</resources>

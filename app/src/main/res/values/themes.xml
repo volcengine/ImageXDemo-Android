@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools"><!--
+  ~ Copyright (2024) Beijing Volcano Engine Technology Ltd.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Create Date : 2024/05/14
+  -->
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ImageXDemo" parent="Theme.Material3.Light.NoActionBar">
+        <!--         Customize your light theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorControlActivated">@color/color_accent</item>
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
+
+    <style name="FullScreenTheme" parent="Theme.Material3.Light.NoActionBar">
+        <!--         Customize your light theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorControlActivated">@color/color_accent</item>
+
+        <!-- 在这里添加状态栏透明的设置 -->
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+
+    </style>
+
+    <style name="Theme.ImageXDemo" parent="Base.Theme.ImageXDemo" />
+
+</resources>

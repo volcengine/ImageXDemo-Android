@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (2024) Beijing Volcano Engine Technology Ltd.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Create Date : 2024/05/14
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_service_page_bg"
+    tools:context=".ui.ImageServiceActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/ve_image_x"
+        android:textColor="@color/color_111214"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_service_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/try_service"
+        android:textColor="@color/color_111214"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_title"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_functions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginRight="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_service_tip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <com.bytedance.imagexdemo.ui.view.CombinedItemView
+                android:id="@+id/bt_decode"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                app:iv_left="@drawable/decode_ic"
+                app:iv_right="@drawable/right_arrow_icon"
+                app:title="@string/image_decode" />
+
+            <com.bytedance.imagexdemo.ui.view.CombinedItemView
+                android:id="@+id/bt_progressive_load"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                app:iv_left="@drawable/progressive_loading_ic"
+                app:iv_right="@drawable/right_arrow_icon"
+                app:title="@string/progressive_load" />
+
+            <com.bytedance.imagexdemo.ui.view.CombinedItemView
+                android:id="@+id/bt_animate_control"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                app:iv_left="@drawable/animated_ic"
+                app:iv_right="@drawable/right_arrow_icon"
+                app:title="@string/animate_image_control" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/cv_functions">
+
+        <com.bytedance.imagexdemo.ui.view.CombinedItemView
+            android:id="@+id/bt_settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:iv_left="@drawable/settings_ic"
+            app:iv_right="@drawable/right_arrow_icon"
+            app:title="设置" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
