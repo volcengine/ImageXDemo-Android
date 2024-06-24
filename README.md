@@ -1,11 +1,11 @@
-# ImageX_Android_Demo
+# ImageXDemo-Android
 
 ImageX-Demo-android 是火山引擎视频云 veImageX SDK Android 端的开源 Demo。它基于 BDFresco 的图片 SDK 开发，目前完成了多种图片格式解码、渐进式加载、动图播放控制等基础能力展示，提供了一些示例使用方式，后续会持续迭代。帮助业务侧更快完成图片业务的快速搭建，减少接入过程中遇到的困难。
 
 # 目录结构
 
 ```text
-|--ImageX_Android_Demo
+|--ImageXDemo-Android
 |--|--app     // app 主工程
 |--|--gradle     // gradle配置
 |--|--|--lib.versions.toml     //版本管理配置文件
@@ -16,7 +16,7 @@ ImageX-Demo-android 是火山引擎视频云 veImageX SDK Android 端的开源 D
 1. <b>Demo 需要设置 AppId 、 AuthCode、Token 才能成功运行，否则一些功能将不可使用。</b> 请联系火山引擎商务获取体验 AppId 、 AuthCode和Token。
 
 设置方式：
-> 修改 ImageX_Android_Demo/com/bytedance/imagexdemo/utils/ImageXInitHelper.kt
+> 修改 ImageXDemo-Android/com/bytedance/imagexdemo/utils/ImageXInitHelper.kt
 ```kotlin
 object ImageXInitHelper {
 
@@ -30,7 +30,7 @@ object ImageXInitHelper {
 }
 ```
 
-2. Android Studio 打开 `ImageX_Android_Demo` 文件夹，点击运行 `app`.
+2. Android Studio 打开 `ImageXDemo-Android` 文件夹，点击运行 `app`.
 
 # Issue
 
