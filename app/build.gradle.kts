@@ -35,7 +35,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.bytedance.fresco.showsample"
+        applicationId = "com.bytedance.imagexdemo"
         minSdk = 21
         targetSdk = 34
         versionCode = 1
